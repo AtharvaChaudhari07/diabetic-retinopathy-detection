@@ -23,3 +23,12 @@ This project involves:
 - **Image Upload**: Users can upload images through a drag-and-drop feature.
 - **FastAPI Backend**: The backend uses FastAPI to serve the model predictions.
 - **React Frontend**: The frontend is built with React, offering a clean and responsive UI.
+
+## Deployment
+
+### Frontend Deployment:
+The frontend is deployed using **Vercel**. You can visit the live website here:  
+[Visit the Neural Network Web Application](https://diabetic-retinopathy-detection-one.vercel.app/)
+
+### Backend Deployment:
+The backend is deployed using **Render**. It is automatically connected to the frontend, and the API can be accessed via the URL provided by Render.
