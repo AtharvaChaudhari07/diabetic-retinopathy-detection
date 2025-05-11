@@ -27,7 +27,7 @@ function App() {
     formData.append("file", file);
 
     try {
-      const res = await axios.post("http://localhost:8000/predict", formData);
+      const res = await axios.post("https://diabetic-retinopathy-detection-v631.onrender.com/predict", formData);
       setPrediction(res.data.prediction);
     } catch (err) {
       console.error("Prediction error", err);
